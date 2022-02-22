@@ -1,0 +1,59 @@
+body{
+    background-color: #d3dded;
+}
+/* div wrapper rộng 600px và căn giữa */
+#wrapper{
+    width: 600px;
+    margin: auto; 
+}
+
+#txtUserName{
+    background-color: transparent; border: 1px solid black;
+}
+
+/* float: left; góc bên trái */
+#left{
+    width: 30%; 
+    min-height: 300px;
+    float: left; 
+    background-color: #f0dba3;
+}
+
+#right{
+    width: 70%;
+    min-height: 300px;
+    float: right;
+    background-color: #c1c7d9;
+}
+
+#boxTitle{
+    border: solid 1px black; 
+    padding: 5px; 
+    text-align: center;
+    font-weight: bolder;
+}
+
+#boxContent{
+    border: solid 1px black; 
+    padding: 5px; 
+    padding-top: none;
+    text-align: center;
+}
+
+#sayHi{
+    text-align: right;
+}
+
+#listMessage{
+    height: 300px;
+    background-color: #caf5a2;
+    margin-bottom: 15px;
+}
+
+#txtMessage{
+    background-color: white; border: solid 1px black;
+}
+
+#btnSend{
+    background-color: white; border: solid black 1px;
+}
