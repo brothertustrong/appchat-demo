@@ -1,4 +1,4 @@
-var socket = io("https://app-chat-tuta.herokuapp.com");
+var socket = io("https://chat-demo-taanhtu.herokuapp.com");
 
 // var socket = io("http://localhost:3000");
 
