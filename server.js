@@ -49,6 +49,14 @@ io.on("connection", function(socket){
         //console.log(socket.Username + " stop go chu");
         io.sockets.emit("ai-do-stop-go-chu");
     });
+
+    socket.on("disconnect", function(){
+        mangUser.splice(
+            mangUser.indexOf(socket.Username), 1
+        );
+
+        socket.broadcast.emit("server-send-danhsach-Users", mangUser);
+    });
 });
 
 app.get("/", function(req, res){
