@@ -20,7 +20,7 @@ socket.on("server-send-danhsach-Users", function(data){
 });
 
 socket.on("server-send-message", function(data){
-    $("#listMessage").append("<div class='ms'>"+ data.un + ":" + data.nd+"</div>");
+    $("#listMessage").append("<div class='ms'>"+ data.un + ": " + data.nd+"</div>");
 });
 
 socket.on("ai-do-dang-go-chu", function(data){
